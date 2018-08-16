@@ -1,1 +1,139 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0px auto;
+    position: relative;
+}
+
+.input-group {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.main-container {
+    width: 632px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 8px grey;
+    background-color: white;
+}
+
+#search {
+    height: 34px;
+    padding: 4px;
+    margin-top: 0px;
+}
+
+#searched-place {
+    width: 100%;
+    height: 31px;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+    color: #878787;
+}
+
+#current-day {
+    width: 100%;
+    height: 20px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #878787;
+}
+
+.weather-condition {
+    width: 100%;
+    height: 20px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #878787;
+}
+
+#temp-disp {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-top: 15px;
+}
+
+.banner-left {
+    width: 40%;
+    height: inherit;
+    float: left;
+    display: inline-flex;
+}
+
+.column1 {
+   
+    top: 10px;
+} 
+
+#temp {
+    font-size: 64px;
+    font-family: Arial, sans-serif;
+    color: #212121;
+    font-weight: lighter;
+}
+
+.row{
+    display: flex;
+}
+
+
+.banner-right {
+    width: 60%;
+    height: inherit;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row1 {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #878787;
+    margin: 0px 0px 16px 90px;
+    line-height: 22px;
+}
+
+.row2 {
+    margin: 0px 0px 0px 90px;
+}
+
+
+.chart {
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-top: 20px;
+}
+
+.forecast {
+    width: 100%;
+    height: 92px;
+    float: left;
+}
+
+.col-xs-3 {
+    width: 75px;
+    height: 92px;
+}
+
+.col-xs-6 {
+    width: 48%;
+    padding: 0px;
+}
+
+#fore1 {
+    justify-content: space-around;
+}
